@@ -1,0 +1,14 @@
+{
+  "name": "linkedin-beacon",
+  "owner": {
+    "name": "Lawrence Philemon"
+  },
+  "plugins": [
+    {
+      "name": "linkedin-beacon",
+      "source": "./",
+      "description": "LinkedIn thought leadership engine — intake protocol adaptif, framework B.E.A.C.O.N, format engine text post + carousel PDF, Mode Outreach untuk pitching DM dan connection note.",
+      "version": "1.1.0"
+    }
+  ]
+}
