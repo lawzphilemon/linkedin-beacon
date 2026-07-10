@@ -171,29 +171,42 @@ baca. Jangan duplikasi isi slide; tugas caption menjual swipe pertama.
 
 ## 5. Format Engine — Carousel LinkedIn (PDF document post)
 
-Basis visual: **adaptasi sistem IG Lawrence.** Spec lengkap + export pipeline
-wajib dibaca saat memproduksi carousel: `references/carousel-linkedin-spec.md`.
+Basis visual: **design system P.R.O.O.F** (Paper · Rules · Oversized type ·
+One accent · Footer system) — editorial-tech light, identitas terpisah dari
+sistem IG. Engine lengkap (angle scoring, beat structure, design tokens, hook
+library, caption, self-check visual, export) WAJIB dibaca saat memproduksi
+carousel: `references/carousel-proof-engine.md`. Dokumen itu menang untuk semua
+keputusan visual carousel; SKILL.md ini tetap menang untuk strategi (intake,
+B.E.A.C.O.N, goal hierarchy, feedback loop).
 
 Yang harus selalu diingat:
 
-- **8 slide** (bukan 7 seperti IG) — LinkedIn menghukum completion rate rendah,
-  rekomendasi 8–10 slide maksimal; 8 adalah titik aman depth vs completion
-- Canvas 1080×1350, palette dan typography identik IG (#EDE6DE, dark #1c1410,
-  burgundy #8B1A1A, gold hanya di dark slide, Cormorant Garamond Italic Bold
-  34–46px auto-fit, Inter 15.5px, Courier New eyebrow)
-- Teks per slide LEBIH RINGAN dari IG — document viewer LinkedIn render lebih
-  kecil di feed
+- **8 slide**, canvas 1080×1350 (4:5), bahasa default **English** —
+  LinkedIn menghukum completion rate rendah, 8 = titik aman depth vs completion
+- Palette P.R.O.O.F: paper `#F4F4F1` · ink `#161616` · accent `#E8500A`
+  (satu-satunya accent di slide light) · dark slide `#101010` dengan
+  accent-on-dark `#FF7A33`. Burgundy dan gold TIDAK ada di sistem ini
+- Typography: Space Grotesk 700 display 32–44px auto-fit · Inter 400 body
+  15.5px · JetBrains Mono eyebrow/label/footer. Tanpa Cormorant, tanpa
+  Courier New — itu identitas IG
+- Word budget turun satu tingkat dari IG: hook ≤ 12 kata, slide ≤ 25 target /
+  35 ceiling, list ≤ 4 item — document viewer LinkedIn render kecil di feed
 - Slide 1 menjanjikan payoff, slide 8 menepatinya. Janji tidak ditepati =
   completion jatuh = reach jatuh
-- CTA slide: BUKAN ManyChat keyword (itu milik IG). CTA LinkedIn = save /
-  follow / soft DM, tetap di dalam border box
-- Footer: `lawrence philemon | linkedin` + `NN/08`; progress bar segmented tetap
+- Bobot angle carousel: Save 35 · Comment 30 · Send 20 · Follow 15 —
+  DM parkir sampai Fase 2 (bagian 0)
+- CTA slide 8: BUKAN ManyChat keyword (itu milik IG). CTA = save / follow /
+  soft DM (Mini Case Study saja), dalam CTA box border accent
+- Footer dua baris: `LAWRENCE PHILEMON` + `NN/08`, lalu
+  `AI-ASSISTED GROWTH MARKETER | GEO & PAID PERFORMANCE`;
+  progress bar segmented tetap
 - Export: HTML → PNG per slide (via carousel-png-exporter) → merge jadi satu
-  PDF lossless. Font asli wajib ter-embed; file font tidak ada = STOP dan minta.
-  Jangan pernah fallback Lora/Poppins
+  PDF lossless. Tiga font wajib ter-embed base64; jalur sourcing terverifikasi
+  ada di engine doc; semua jalur gagal = STOP dan minta file font. Tanpa
+  fallback system font
 
 Anatomy default 8 slide: 01 hook (B) · 02 context/stakes · 03 dark statement (C) ·
-04 data (E) · 05–06 breakdown · 07 nuance/lesson (A) · 08 CTA (N).
+04 evidence (E) · 05–06 breakdown · 07 nuance/lesson (A) · 08 CTA (N).
 Urutan boleh digeser per topik; elemen wajib tetap.
 
 ---
@@ -291,7 +304,7 @@ Tanpa preamble, tanpa recap setelah output.
 - [ ] B + E + N ada; minimal 2 dari A / C / O?
 - [ ] Semua angka bisa dilacak ke sumber — tidak ada sumber → [perlu verifikasi] atau parkir topik
 - [ ] Carousel: jawaban jelas untuk "apa yang akan orang save?"
-- [ ] Carousel: 8 slide; janji slide 1 ditepati slide 8; footer dan progress bar benar; font asli ter-embed
+- [ ] Carousel: 8 slide; janji slide 1 ditepati slide 8; footer dua baris + progress bar benar; tiga font P.R.O.O.F ter-embed; self-check visual di `carousel-proof-engine.md` lolos
 - [ ] Nol tanda seru; nol emoji awal/tengah; nol hashtag; nol forbidden words dan closers
 - [ ] Tidak terasa AI — humanizer pass, ritme kalimat bervariasi
 - [ ] Topik tidak menyentuh asuransi / financial planning / politik
@@ -344,7 +357,7 @@ note menyertakan hitungan karakternya. Self-check outreach ada di playbook.
 
 | Situasi | Baca |
 |---|---|
-| Produksi carousel LinkedIn (spec visual + export PDF) | `references/carousel-linkedin-spec.md` |
+| Produksi carousel LinkedIn (engine + design system P.R.O.O.F + export PDF) | `references/carousel-proof-engine.md` |
 | Pilih topik / cek backlog / parkir topik tanpa data | `references/topic-backlog.md` |
 | Mode Outreach: template note, sequence DM, objection | `references/outreach-playbook.md` |
 | Detail voice, hook patterns, format arsenal | skill `linkedin-copywriter` |
