@@ -204,7 +204,7 @@ Nol hashtag (aturan beacon — interest graph baca kata kunci natural di kalimat
 - **Save (utama).** Minimal satu slide save-worthy per carousel: framework bernama, checklist, benchmark, workflow. Tidak muncul natural dari angle → angle lemah, kembali ke Fase 1. Ini gate "test save" beacon — gagal = bukan carousel.
 - **Comment.** Open loop praktisi di slide 7 atau caption — pertanyaan yang hanya bisa dijawab orang yang mengerjakan. "Agree?" dan sejenisnya = engagement bait = mati.
 - **Send.** Bila topik cocok, framing "send this to whoever runs your account" — bonus, bukan target.
-- **Follow.** Label seri + disiplin pilar = alasan follow. CTA follow menjanjikan edisi berikutnya yang spesifik.
+- **Follow.** Disiplin pilar + eyebrow topik yang konsisten = alasan follow. CTA follow menjanjikan edisi berikutnya yang spesifik; label seri bernama opsional kalau mau memperkuat recall.
 - **DM.** Parkir sampai Fase 2 beacon (5 post berturut di atas benchmark). Soft DM hanya di Mini Case Study, satu kalimat, tanpa urgensi.
 
 ---
@@ -274,9 +274,9 @@ Log per carousel, tambahan di atas log beacon: **formula hook · angle + skor ·
 
 ---
 
-## REKOMENDASI SERI (opsional, bisa dimatikan per carousel)
+## EYEBROW & SERI
 
-Eyebrow sebagai label seri: `FIELD NOTES — [TOPIC]` (JetBrains Mono caps). Seri bernama = alasan follow + recall antar post. Konsisten dengan aturan eyebrow satu tema seragam per carousel.
+Eyebrow default = **label topik carousel**: `[TOPIC]` — contoh `GEO PIPELINE`, `PMAX AUDIT`, `GA4 ATTRIBUTION`. JetBrains Mono caps, satu tema seragam di semua slide (aturan lama tetap); topik diambil dari angle terpilih, ditetapkan di Strategy Summary. Label seri bernama (misal `FIELD NOTES — [TOPIC]`) opsional dan **mati by default** — hanya dipakai kalau Lawrence memutuskan membangun seri.
 
 ---
 
