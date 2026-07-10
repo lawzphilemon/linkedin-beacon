@@ -198,7 +198,7 @@ Yang harus selalu diingat:
 - CTA slide 8: BUKAN ManyChat keyword (itu milik IG). CTA = save / follow /
   soft DM (Mini Case Study saja), dalam CTA box border accent
 - Footer dua baris: `LAWRENCE PHILEMON` + `NN/08`, lalu
-  `AI-ASSISTED GROWTH MARKETER | GEO & PAID PERFORMANCE`;
+  `AI-ASSISTED GROWTH MARKETER | SEO/GEO & PAID PERFORMANCE`;
   progress bar segmented tetap
 - Export: HTML → PNG per slide (via carousel-png-exporter) → merge jadi satu
   PDF lossless. Tiga font wajib ter-embed base64; jalur sourcing terverifikasi
