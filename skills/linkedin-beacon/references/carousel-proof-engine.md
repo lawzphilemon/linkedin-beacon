@@ -137,7 +137,7 @@ Dramatic gap dipertahankan sebagai identitas: **tidak ada ukuran perantara** ant
 - Slide statement (1, 3, 8) centered; slide list/data (4–6) top-aligned; slide 2 dan 7 fleksibel
 - **Signature device — annotated number:** stat hero + rule accent pendek (24px) + satu baris anotasi mono di bawahnya. Persis seperti callout di dashboard. Maksimal 2× per carousel supaya tetap signature
 - Swipe cue `→` JetBrains Mono kanan-bawah slide 1–7; slide 8 tanpa
-- Footer semua slide, dua baris: baris 1 `LAWRENCE PHILEMON` (kiri) + `NN/08` (kanan); baris 2 `AI-ASSISTED GROWTH MARKETER | GEO & PAID PERFORMANCE` — caps mono mengikuti sistem, tagline sedikit lebih kecil (7.5px) supaya hierarki nama tetap jelas
+- Footer semua slide, dua baris: baris 1 `LAWRENCE PHILEMON` (kiri) + `NN/08` (kanan); baris 2 `AI-ASSISTED GROWTH MARKETER | SEO/GEO & PAID PERFORMANCE` — caps mono mengikuti sistem, tagline sedikit lebih kecil (7.5px) supaya hierarki nama tetap jelas
 - Progress bar 2px segmented di bawah footer, 8 segmen, terisi accent sesuai posisi slide
 
 ### Treatment per jenis konten
